@@ -1,0 +1,110 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main menu</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div id="header"><h1 style="text-align:center"> Hello Kitty</h1></div>
+	
+	<div id="main-content">
+		<div id="maindiv" align="center">
+			<br>  
+			<button class="button" onclick="document.getElementById('customerdiv').style.zIndex =3 ">客戶資料檔案</button>
+			<button class="button" onclick="document.getElementById('productdiv').style.zIndex =3 ">產品資料檔案</button>
+			<button class="button" onclick="document.getElementById('employeediv').style.zIndex =3">員工主檔</button>
+			<button class="button">進貨/進貨退回</button>
+			<br>
+			<button class="button">領料/退料單</button>  
+			<button class="button">收款單</button>
+			<button class="button">付款單</button>
+			<button class="button">成交單</button>
+			<br>
+			<button class="button">請購單</button>
+			<button class="button">供應商檔案管理</button>
+			<button class="button">報廢單</button>
+			<button class="button" onclick="document.getElementById('p1').style.zIndex =1">盤點單</button>
+		</div>
+	
+		<div id="productdiv">
+			<h1 style="text-align: center;">[ 產 品 資 料 檔 案 ]<h1>
+		   <table>
+			 <tr><td>1.產品編號</td><td style="width:350px">:<1></td><td>2.更新日期</td><td style="width:350px">:<2></td></tr>
+			 <tr><td>3.產品名稱</td><td>:<3></td><td>4.國際料號</td><td>:<4></td></tr>
+			 <tr><td>5.單位</td><td>:<5></td><td>6.代碼</td><td>:<6></td></tr>
+			 <tr><td>7.定價</td><td>:<7></td><td>8.安全存量</d><td>:<8></td></tr>
+			 <tr><td>9.修理包</td><td>:<9></td></tr>
+			 <tr><td>10.位置</td><td>:<10></td></tr>
+			 <tr><td></td><td><11></td></tr>
+			 <tr><td></td><td><12></td></tr>
+			 <tr><td></td><td><13></td></tr>
+			 <tr><td></td><td><14></td></tr>
+		   </table>
+		   <button class="backmain" onclick="document.getElementById('productdiv').style.zIndex =1">回主頁</button>
+		</div>
+		
+		<div id="customerdiv">
+		 <h1 style="text-align: center;">[ 客  戶 資 料 檔 案 ]<h1>
+		   <table>
+			 <tr><td>&nbsp;&nbsp;&nbsp;客 戶 編 號&nbsp;</td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;公 司 名 稱&nbsp;</td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;機 器 位 置&nbsp;</td><td id="content">:內容</td></tr>  
+			 <tr><td>&nbsp;&nbsp;&nbsp;公 司 地 址&nbsp;</td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;發 票 地 址&nbsp;</td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;電       話&nbsp;</td><td id="content">:內容</td></tr>
+			 <tr><td></td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;傳真機 </td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;郵 遞 區 號 </td><td id="content">:內容</td><td>請 款 日 </td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;建 檔 日 期 </td><td id="content">:內容</td><td>統 一 編 號 </td><td id="content">:內容</td></tr>
+			 <tr><td>&nbsp;&nbsp;&nbsp;營 業 性 質 </td><td id="content">:內容</td><td>負 責 人 </td><td id="content">:內容</td></tr>
+		   </table>
+		  <button class="backmain" onclick="document.getElementById('customerdiv').style.zIndex =1">回主頁</button>
+		</div>
+		
+		<div id="employeediv">
+		<h1 style="text-align: center;border-bottom-style:double;">員 工 主 檔</h1>
+			<div style="margin-left:5%;">
+				<table>
+					<tr><td id="empnum">員工編號</td><td><1></td></tr>
+				</table>
+			</div>
+			<div id="top1">
+				<table>
+					<tr><td>姓名 |</td><td width="200px"><2></td><td>| 性別 |</td><td width="50px"><3></td><td>| 血型 |</td><td width="50px"><4></td><td>| 出生日期 |</td><td width="200px"><5></td><td>| 籍貫 |</td><td width="150px"><6></td><td>| 婚姻 |</td><td width="150px"><7></td><tr>
+				</table>
+			</div> 
+			<div id="top2">
+				<table>
+					<tr><td>手機 |</td><td width="25px"><8></td><td>| 戶籍地址  </td><td width="1000px">:<9></td>
+					<tr><td>電話 |</td><td><10></td><td>| 聯絡處  </td><td>:<11></td>
+				</table>
+			</div> 
+			<div id="top3">
+				<table>
+					<tr><td style="border-right-style:dashed;"rowspan="6">經<br>歷</td><td width="350px">公司行號</td><td width="150px">|到職日</td><td width="150px">|離職日</td><td width="150px">|待遇</td><td width="1000px">|備註</td></tr>
+					<tr><td><12></td><td>|<13></td><td>|<14></td><td>|<15></td><td>|<16></td></tr>
+					<tr><td><17></td><td>|<18></td><td>|<19></td><td>|<20></td><td>|<21></td></tr>
+					<tr><td><22></td><td>|<23></td><td>|<24></td><td>|<25></td><td>|<26></td></tr>
+					<tr><td><></td><td>|<></td><td>|<></td><td>|<></td><td>|<></td></tr>
+					<tr><td><></td><td>|<></td><td>|<></td><td>|<></td><td>|<></td></tr>
+				</table>
+			</div>
+			<div id="top4">
+				<table>
+					<tr><td>希望待遇:</td><td width="200px"><27></td><td>工作地點:</td><td width="300px"><28></td><td>駕照種類:</td><td width="350px"><29></td></tr>
+					<tr><td>到職日:</td><td><30></td><td>學歷:</td><td><31></td><td>專長:</td><td><32></td></tr>
+					<tr><td>緊急聯絡人</td><td><33></td></tr>
+				</table>
+			</div>
+		<button class="backmain" onclick="document.getElementById('employeediv').style.zIndex =1">回主頁</button>
+		</div>
+	</div><!--main-content end -->
+
+<br>
+    <div id="footer"><h4><a href="/index.html">home</h4></div>
+
+</body>
+</html>

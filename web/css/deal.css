@@ -1,0 +1,24 @@
+body{
+	font-family:微軟正黑體;
+}
+.content{
+	width:400px;
+}
+.t2{
+	border-collapse:collapse;
+	border-top-style:solid;
+	border-bottom-style:solid;
+    margin-left:200px;
+}
+.t2 td{
+	border-left-style:dashed;
+	border-right-style:dashed;
+}
+.title{
+	border-bottom-style:solid;
+	width:200px;
+	text-align:center;
+}
+table{
+	margin-left:200px;
+}

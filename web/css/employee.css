@@ -1,0 +1,32 @@
+body{
+	font-family:微軟正黑體;
+}
+div{
+	width:1700px;
+}
+#empnum{
+	letter-spacing:10px;
+}
+#top{
+	margin-left:5%;
+	border-style:dashed;
+}
+#top1{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top2{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top3{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top3 td{
+	border-bottom-style:dashed;
+}
+#top4{
+	margin-left:5%;
+	border-style:none dashed dashed dashed;
+}

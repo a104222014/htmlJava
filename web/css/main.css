@@ -1,0 +1,105 @@
+#header{
+    background-color: #99CCFF;
+	height: 80px;
+	width:1250px;
+	position: relative;
+}
+.button {
+    background-color: #CCCCCC; 
+    border: none;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+	font-family: Microsoft JhengHei;
+    font-weight:bold;
+    width:100px;
+    height:100px;
+	border-radius: 8px;
+}
+#productdiv table{
+	border-style:solid dashed;
+	margin-left:100px;
+	font-size:20px;
+}
+#main-content{	
+	position:relative;	
+	height: 700px;
+}
+#productdiv{
+	position:absolute;
+	z-index:1;
+	background-color:#FF0088;
+	width:1250px;
+    height:800px;
+}
+#maindiv{
+	position:absolute;
+	z-index:2;
+	background-color:#00DD00;
+	width:1250px;
+    height:800px;
+	
+}
+#footer{
+	position: relative;
+    background-color: #99CCFF;
+	height: 80px;
+	width:1250px;
+	bottom:0;
+	z-index:4;
+}
+#customerdiv {
+	position:absolute;
+	z-index:1;
+	background-color:white;
+	width:1250px;
+    height:800px;
+}
+#customerdiv table{
+	border-style:solid dashed;
+}
+#content{
+	width:500px;
+}
+#customerdiv td {
+	
+	margin-left:5%
+}
+#employeediv{
+	position:absolute;
+	z-index:1;
+	background-color:white;
+	width:1250px;
+    height:800px;
+}
+#empnum{
+	letter-spacing:10px;
+}
+#top{
+	margin-left:5%;
+	border-style:dashed;
+}
+#top1{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top2{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top3{
+	margin-left:5%;
+	border-style:dashed dashed none dashed;
+}
+#top3 td{
+	border-bottom-style:dashed;
+}
+#top4{
+	margin-left:5%;
+	border-style:none dashed dashed dashed;
+}

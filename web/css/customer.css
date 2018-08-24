@@ -1,0 +1,16 @@
+body {
+	font-family:"微軟正黑體";
+}
+#main {
+	border-style:solid dashed 
+}
+#content {
+	width:500px;
+}
+td {
+	border-style:solid;
+	margin-left:5%
+}
+div{
+	margin-left:10%;
+}

@@ -1,0 +1,16 @@
+body{
+	font-family:微軟正黑體;
+}
+table{
+
+	border-style:solid dashed;
+	margin-left:300px;
+}
+.title{
+	border-bottom-style:solid;
+	border-top-style:solid;
+	text-align: center;
+}
+td{
+	border-right-style:dashed;
+}

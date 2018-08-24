@@ -1,0 +1,52 @@
+body {
+	font-family:"微軟正黑體";
+}
+#t1R {
+	text-align: right;
+}
+#t3R {
+	text-align: right;
+}
+#t1M{
+	width:200px;
+}
+
+table{
+	border-collapse:collapse;
+	
+}
+
+#t211{
+	width:240px;
+	text-align: center;
+	border-bottom-style:solid;
+}
+#t212{
+	width:260px;
+	text-align: center;
+	border-bottom-style:solid;
+}
+#t213{
+	width:180px;
+	text-align: center;
+	border-bottom-style:solid;
+}
+#t214{
+	width:200px;
+	text-align: center;
+	border-bottom-style:solid;
+}
+#t215{
+	width:220px;
+	text-align: center;
+	border-bottom-style:solid;
+}
+div{
+	margin-left:5%;
+}
+#center table{
+	border-style:solid dashed;
+}
+#center td{
+	border-right-style:dashed;
+}
